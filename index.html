@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Quest: Flex Item: flex</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Flex</h1>
+
+    <section>
+      <h2>Flex</h2>
+      <p>
+        A propriedade <strong>flex</strong> nada mais é que uma abreviação das
+        propriedades: <strong>flex-grow</strong>, <strong>flex-shrink</strong> e
+        <strong>flex-basis</strong> respectivamente.
+      </p>
+      <h2>grow 0 / shrink 1 / basis 0</h2>
+      <div class="container flex">
+        <div class="item flex-0">Lorem ipsum.</div>
+        <div class="item flex-0">Lorem ipsum dolor</div>
+        <div class="item flex-0">Lorem ipsum dolor sit amet</div>
+      </div>
+    </section>
+
+    <h2>grow 1 / shrink 1 / basis 0</h2>
+    <div class="container flex">
+      <div class="item flex-1">Lorem ipsum.</div>
+      <div class="item flex-1">Lorem ipsum dolor</div>
+      <div class="item flex-1">Lorem ipsum dolor sit amet</div>
+    </div>
+    <section>
+
+      <h2>grow 1 / shrink 1 / basis 100px</h2>
+      <div class="container flex">
+        <div class="item flex-1-1-100">Lorem ipsum.</div>
+        <div class="item flex-1-1-100">Lorem ipsum dolor</div>
+        <div class="item flex-1-1-100">Lorem ipsum dolor sit amet</div>
+      </div>
+    </section>
+  </body>
+</html>
